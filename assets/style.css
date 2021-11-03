@@ -1,0 +1,339 @@
+/*General*/
+*{
+	padding: 0px;
+	margin: 0px;
+} 
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../assets/Comfortaa-Medium.ttf);
+}
+
+body {
+	font-family: Comfortaa, sans-serif;
+	color: white;
+	font-size: 1em;
+	background-color: #052352; 	/*#051433;#0099ff; #1e81b0; #0A3161;*/
+}
+
+#main a {
+	color: red;
+}
+
+#main a:hover{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+button:hover {
+	cursor: pointer;
+}
+/*End of General*/
+
+#email{
+	background-color:red;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+#email h1{
+	text-align: center;
+	margin-top: 40px;
+	padding: 30px;
+}
+
+
+/*INFO BARS*/
+
+#infobars {
+	overflow: hidden;
+	box-sizing: border-box;
+
+	margin-top: 40px;
+
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+
+	position: relative;
+    
+    z-index: 0;
+}
+
+.infobar {
+	border-width: 5px;
+	border-radius: 0px;
+	border-style: solid;
+
+	width: 350px;
+	height: 500px;
+
+	background-color: gray;
+	border-color: #410C91;
+
+	margin-right: 20px;
+
+	float: left;
+
+	position: relative;
+
+	box-sizing: border-box;
+
+
+	overflow: hidden;
+
+	padding-bottom: 40px;
+}
+
+.buttons{
+	position: absolute;
+	bottom: 0px;
+	/*border-style: solid;*/
+	margin-bottom: 20px;
+	box-sizing: border-box;
+
+}
+
+
+
+#wrapper {
+	margin: auto;
+	width: 1090px;
+}
+
+/* THE OVERFLOW:  HIDDEN; THING MAKES NO SENSE */
+#about_toby {
+	text-align: center;
+
+}
+
+#our_agenda {
+text-align: center;
+
+}
+
+#get_involved {
+text-align: center;
+margin-right: 0px;
+}
+
+.infobar button {
+	width:290px;
+	height:100px;
+	background-color: gray;
+	color: black;
+	border-color: black;
+	position: relative;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 40px;
+	font-family: Comfortaa;
+}
+
+button:hover {
+	color:red;
+	border-color:red; 
+}
+
+/* END OF INFO BARS */
+
+
+
+
+/*HEADER*/
+
+#banner{
+	width: 100%;
+	height: 100px;
+    background-color: #333;
+    overflow:hidden;
+    position: fixed;
+    z-index: 5;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+  list-style-type: none;
+  list-style-type: none;
+}
+
+
+
+#social-media {
+	float: right;
+    margin-top: 10px;
+	margin-right: 20px;
+}
+
+.sml{
+	margin-left: 2px;
+
+}
+
+.sml img:hover{
+    transform: scale(1.2)
+}
+
+#nav{
+  width: fit-content;
+	font-size: 30px;
+/*
+	width: fit-content;   
+  margin: auto;
+  margin-top:80px;
+*/
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 40px;
+	left: 40px;
+	right: 0px;
+}
+
+.mi{
+	margin-right: 50px;
+}
+
+/*END OF HEADER*/
+
+
+
+
+/*MISCELLANEOUS*/
+
+.clr{
+	clear: both;
+}
+
+#exception {
+	width: 90px;
+	height: 40px;
+	font-size: 12px;
+    border-radius:0px;
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+    font-family: Comfortaa;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+#typeEmail {
+    width: 400px;
+    height:40px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    border-color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label {
+	margin-right: 10px;
+	font-weight: 40;
+	color: black;
+}
+
+::placeholder{
+	color: black;
+	opacity: 0.5;
+	font-family: Comfortaa;
+}
+
+#main{
+	text-align: center;
+
+}
+
+#main p{
+	margin-top: 40px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#space{
+	height: 100px;
+}
+
+#infobars p{
+	width: 290px;
+	margin: auto;
+	/*border-style: solid;*/
+	margin-top: 30px;
+}
+
+#infobars h2{
+	font-size: 1.6em;
+}
+/*END OF MISCELLANEOUS*/
+
+/*FOOTER*/
+
+footer{
+    margin-top:40px;
+
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+#copyright{
+	text-align: center;
+    border-style: solid;
+    width: fit-content;
+    float: left;
+    margin-left: 15%;
+    z-index: 3;
+    margin-top: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+#footer-links{
+    width: fit-content;
+    height: 40px;
+    float: right;
+    
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 25%;
+
+    vertical-align: middle;
+}
+
+
+/*END OF FOOTER*/
+
+/*MARGINS*/
+
+h1{
+	margin: 1em;
+}
+
+h2{
+	margin-top: 1em;
+}
+
+/*END OF MARGINS*/
+
+
+.fl{
+	margin-left: 2px;
+
+}
+
+.fl img:hover{
+    transform: scale(1.2)
+}
